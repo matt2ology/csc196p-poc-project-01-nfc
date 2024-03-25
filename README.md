@@ -21,3 +21,8 @@ technology and how to make some kind service/tool with the cloud.
 4. [ELECROW Small Monitor 10.1 Inch Mini Monitor](https://www.amazon.com/gp/product/B076GZVCP2/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 5. [Raspberry Pi Keyboard and Hub](https://www.raspberrypi.com/products/raspberry-pi-keyboard-and-hub/)
 6. [Raspberry Pi Mouse](https://www.raspberrypi.com/products/raspberry-pi-mouse/)
+
+### Software
+
+[Setup TigerVNC server (Windows)](https://github.com/TigerVNC/tigervnc/wiki/Setup-TigerVNC-server-%28Windows%29)
+
