@@ -5,6 +5,6 @@ GPIO.setwarnings(False)
 rfid = SimpleMFRC522()
 
 while True:
-        id, text = rfid.read()
-        print("id: " + str(id))
-        print("text: " + str(text))
+    id, text = rfid.read()
+    print("id: " + str(id))
+    print("text: " + str(text))
