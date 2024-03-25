@@ -26,3 +26,12 @@ technology and how to make some kind service/tool with the cloud.
 
 [Setup TigerVNC server (Windows)](https://github.com/TigerVNC/tigervnc/wiki/Setup-TigerVNC-server-%28Windows%29)
 
+## Resources
+
+- [circuitbasics: HOW TO USE RFID CARDS WITH A RASPBERRY PI Posted by Harry Mafukidze](https://www.circuitbasics.com/what-is-an-rfid-reader-writer/)
+- [components101: RC522 RFID Module Pin Configuration](https://components101.com/wireless/rc522-rfid-module)
+- [lastminuteengineers: What is RFID? How It Works? Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/)
+- [pimylifeup: How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+- [Raspberry Pi documentation: Raspberry Pi hardware - GPIO and the 40-pin header](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
+- [raspberrypi-spy: RC522 RFID Tag Reading with the Raspberry Pi](https://www.raspberrypi-spy.co.uk/2018/02/rc522-rfid-tag-read-raspberry-pi/)
+- [Robotix: An introduction to a RFID](https://www.robotix.in/tutorial/auto/RFID/)
