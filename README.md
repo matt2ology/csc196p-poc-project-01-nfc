@@ -8,7 +8,9 @@ cloud (via [Firebase](https://firebase.google.com/)).
 I will be using NFC as a means to demonstrate my understanding of both the
 technology and how to make some kind service/tool with the cloud.
 
-## Equipment used
+## Assets used
+
+### Hardware
 
 1. [Raspberry Pi 4 Model B (8 GB)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)
 2. [ELEGOO UNO R3 Project Most Complete Starter Kit with Tutorial Compatible with Arduino IDE (63 Items)](https://www.amazon.com/gp/product/B01CZTLHGE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
