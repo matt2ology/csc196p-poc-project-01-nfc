@@ -1,6 +1,4 @@
-# csc196p-poc-project-01-nfc
-
-CSC 196P - Proof of Concept - Project 01 - NFC
+# CSC 196P - Proof of Concept - Project 1: RFID
 
 This project is to demonstrate one's ability to utilize technologies and the
 cloud (via [Firebase](https://firebase.google.com/)).
