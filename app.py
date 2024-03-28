@@ -151,7 +151,9 @@ class App:
                 if id == self.rfid_tags.get_rfid_key_fob_id() and not self.rfid_tags.is_rfid_key_fob_scanned():
                     self.rfid_tags.rfid_key_fob_is_scanned = True
                     self._rfid_key_fob_timestamp = time.time()
-                    print(self._rfid_key_fob_timestamp)
+                    # Print human-readable timestamp of the current time
+                    print(self.rfid_tags.get_rfid_key_fob_type()
+                          + " scanned at " + time.strftime('%H:%M:%S'))
                     self.firebase.write(
                         id, self.rfid_tags.get_rfid_key_fob_type())
                     print(self.text.fgWhite_bgDefault_bold +
@@ -159,7 +161,9 @@ class App:
                 elif id == self.rfid_tags.get_rfid_card_id() and not self.rfid_tags.is_rfid_card_scanned():
                     self.rfid_tags.rfid_card_is_scanned = True
                     self._rfid_card_timestamp = time.time()
-                    print(self._rfid_card_timestamp)
+                    # Print human-readable timestamp of the current time
+                    print(self.rfid_tags.get_rfid_key_fob_type()
+                          + " scanned at " + time.strftime('%H:%M:%S'))
                     self.firebase.write(
                         id, self.rfid_tags.get_rfid_card_type())
                     print(self.text.fgWhite_bgDefault_bold +
