@@ -8,7 +8,9 @@ import os
 # Initialize Firebase Admin SDK with service account credentials
 cred = credentials.Certificate(
     os.path.normpath(
-        os.path.join(os.path.dirname(__file__), 'serviceAccountKey.json')
+        os.path.join(
+            os.path.dirname(__file__),
+            'firebaseServiceAccountKey.json')
     )
 )
 firebase_admin.initialize_app(cred, {
