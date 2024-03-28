@@ -3,12 +3,15 @@ from mfrc522 import SimpleMFRC522  # RFID library for the MFRC522 module
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import db
+import os
 
 # Initialize Firebase Admin SDK with service account credentials
-cred = credentials.Certificate(os.path.normpath(
-    os.path.join(os.path.dirname(__file__),
-                 "firebase_credentials.json")
-                 )
+cred = credentials.Certificate(
+    os.path.normpath(
+        os.path.join(os.path.dirname(__file__),
+                     "firebase_credentials.json")
+    )
+)
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://csc-196p-poc-proj01-rfid-1e750-default-rtdb.firebaseio.com/'
 })
