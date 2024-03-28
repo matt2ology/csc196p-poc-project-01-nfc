@@ -5,7 +5,10 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 # Initialize Firebase Admin SDK with service account credentials
-cred = credentials.Certificate("firebase_credentials.json")
+cred = credentials.Certificate(os.path.normpath(
+    os.path.join(os.path.dirname(__file__),
+                 "firebase_credentials.json")
+                 )
 firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://csc-196p-poc-proj01-rfid-1e750-default-rtdb.firebaseio.com/'
 })
