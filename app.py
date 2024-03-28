@@ -1,24 +1,14 @@
 import RPi.GPIO as GPIO  # GPIO library for the Raspberry Pi
 from mfrc522 import SimpleMFRC522  # RFID library for the MFRC522 module
-from firebase import Firebase  # For the Firebase Realtime Database
+import firebase_admin
+from firebase_admin import credentials
+from firebase_admin import db
 
-
-class FirebaseConfig:
-    """FirebaseConfig class for the Firebase configuration.
-    """
-
-    def __init__(self):
-        self.firebaseConfig: dict[str, str] = {
-            "measurementId": "AIzaSyDRvScA5Y0LOSf6m4aEzzwYGkvEGieZozQ",
-            "appId": "csc-196p-poc-proj01-rfid-1e750.firebaseapp.com",
-            "messagingSenderId":
-            "https://csc-196p-poc-proj01-rfid-1e750-default-rtdb.firebaseio.com",
-            "storageBucket": "csc-196p-poc-proj01-rfid-1e750",
-            "projectId": "csc-196p-poc-proj01-rfid-1e750.appspot.com",
-            "databaseURL": "300929228398",
-            "authDomain": "1:300929228398:web:910b784cb545f0ca12d07f",
-            "apiKey": "G-1JNT464R05",
-        }
+# Initialize Firebase Admin SDK with service account credentials
+cred = credentials.Certificate("firebase_credentials.json")
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://csc-196p-poc-proj01-rfid-1e750-default-rtdb.firebaseio.com/'
+})
 
 
 class App:
@@ -28,8 +18,6 @@ class App:
     def __init__(self):
         GPIO.setwarnings(False)  # Disable warnings for now
         self.rfid = SimpleMFRC522()  # Initialize the RFID module
-        # Initialize the Firebase Config with the Firebase class instance
-        self.firebase = Firebase(FirebaseConfig().firebaseConfig)
 
     def read(self):
         id, text = self.rfid.read()  # Read the RFID tag
