@@ -22,10 +22,10 @@ class Firebase:
                     os.path.dirname(__file__),
                     'firebaseServiceAccountKey.json')
             )
-        )
+        )  # Service account credentials for the Firebase project in JSON
         firebase_admin.initialize_app(self.cred, {
             'databaseURL': 'https://csc-196p-poc-proj01-rfid-1e750-default-rtdb.firebaseio.com/'
-        })
+        })  # Initialize the Firebase Realtime Database
 
     def write(self, id: int, text: str) -> None:
         """Write the RFID tag ID and text to the Firebase Realtime Database.
@@ -40,12 +40,12 @@ class Firebase:
             'timestamp': time.strftime('%Y-%m-%d %H:%M:%S')
         })
 
-    def clear_all_data_from_database(self):
+    def clear_all_data_from_database(self) -> None:
         """Clear all data from the Firebase Realtime Database.
         """
         db.reference().delete()
 
-    def check_if_database_is_empty(self):
+    def check_if_database_is_empty(self) -> bool:
         """Check if the Firebase Realtime Database is empty.
 
         Returns:
@@ -117,7 +117,7 @@ class App:
         self._rfid_card_timestamp: float = None
         self.time_difference: float = None
 
-    def reset(self):
+    def reset(self) -> None:
         """Reset the RFID reader application.
         """
         self.firebase.clear_all_data_from_database()
@@ -127,7 +127,7 @@ class App:
         self._rfid_card_timestamp = None
         self.time_difference = None
 
-    def run(self):
+    def run(self) -> None:
         """There are two RFID tags in the game: the RFID key fob and the RFID card.
         First to scan the RFID key fob wins the game.
         The game logs both the RFID key fob and RFID card scans to Firebase.
