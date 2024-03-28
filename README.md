@@ -3,8 +3,9 @@
 This project is to demonstrate one's ability to utilize technologies and the
 cloud (via [Firebase](https://firebase.google.com/)).
 
-I will be using NFC as a means to demonstrate my understanding of both the
-technology and how to make some kind service/tool with the cloud.
+I will be using Radio Frequency Identification (RFID) as a means to demonstrate
+my understanding of both the technology and how to make some kind service/tool
+with the cloud.
 
 ## Assets used
 
