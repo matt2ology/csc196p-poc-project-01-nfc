@@ -34,6 +34,7 @@ with the cloud.
 
 - [circuitbasics: HOW TO USE RFID CARDS WITH A RASPBERRY PI Posted by Harry Mafukidze](https://www.circuitbasics.com/what-is-an-rfid-reader-writer/)
 - [components101: RC522 RFID Module Pin Configuration](https://components101.com/wireless/rc522-rfid-module)
+- [Connect To Firebase In Python](https://www.youtube.com/watch?v=M1JjK9DXC6U&ab_channel=TheAssembly)
 - [Firebase - Back to the Basics](https://www.youtube.com/watch?v=q5J5ho7YUhA&ab_channel=Fireship)
 - [Firebase Quickstart by Jeff Delaney](https://fireship.io/lessons/firebase-quickstart/)
 - [lastminuteengineers: What is RFID? How It Works? Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/)
