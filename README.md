@@ -12,6 +12,8 @@ with the cloud.
     - [Software](#software)
   - [Resources](#resources)
 
+## Assets
+
 ### Hardware
 
 1. [Raspberry Pi 4 Model B (8 GB)](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)
