@@ -7,7 +7,10 @@ I will be using Radio Frequency Identification (RFID) as a means to demonstrate
 my understanding of both the technology and how to make some kind service/tool
 with the cloud.
 
-## Assets used
+- [CSC 196P - Proof of Concept - Project 1: RFID](#csc-196p---proof-of-concept---project-1-rfid)
+    - [Hardware](#hardware)
+    - [Software](#software)
+  - [Resources](#resources)
 
 ### Hardware
 
