@@ -15,6 +15,16 @@ with the cloud.
     - [Python](#python)
   - [Resources](#resources)
 
+## The Course [CSC 196P: Cloud and Mobile Computing Pragmatics](https://catalog.csus.edu/search/?search=CSC+196P)
+
+Prerequisite(s): [CSC 134: Database Management Systems](https://catalog.csus.edu/search/?P=CSC%20134), [CSC 138: Computer Networking Fundamentals](https://catalog.csus.edu/search/?P=CSC%20138), and [CSC 139: Operating System Principles](https://catalog.csus.edu/search/?P=CSC%20139)
+
+Introduction to cloud computing. Cloud services. Deployment options. The installation,
+configuration, and deployment of a cloud infrastructure based upon industrial standards.
+Step-by-step cloud setup as well as the development of scripts for automated deployment.
+The installation, building, deployment, testing, and provisioning of a multi-tier
+cloud based mobile application as a cloud service.
+
 ## Assets
 
 ### Hardware
